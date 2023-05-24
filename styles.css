@@ -3,6 +3,10 @@ body {
   color: #e0e1dd;
 }
 
+li:hover{
+   box-shadow: 120px 80px 40px 20px #ffffff;
+}
+
 ::placeholder{
   color: #e0e1dd6a;
 }
