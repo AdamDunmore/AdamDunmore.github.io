@@ -1,7 +1,33 @@
 body {
-  background-color: #bbbbbb;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+}
+
+::placeholder{
+  color: #e0e1dd6a;
 }
 
 #row1{
   display: flex;
+}
+
+.box{
+  border-color: black;
+  border-width: 5px;
+  border-radius: 6px;
+
+  background-color: #415a77;
+
+  width: 300px;
+  height: 80px;
+
+  padding: 5px;
+
+  margin: 5px;
+}
+
+.Title{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 4px;
 }
