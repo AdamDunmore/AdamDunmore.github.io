@@ -9,6 +9,7 @@ body {
 
 #row1{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .box{
@@ -30,4 +31,20 @@ body {
   text-align: center;
   margin: 0;
   margin-bottom: 4px;
+}
+
+.BigBox {
+  background-color: #1b263b;
+  
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0a152a;
+
+    margin: 2px;
+
+    padding: 10px;
+  
+    width: 320px;
+
 }

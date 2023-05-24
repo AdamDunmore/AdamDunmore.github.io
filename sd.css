@@ -1,65 +1,52 @@
-#StandardAlgorithmsBox{
-    background-color: #1b263b;
+.RunButton{
+  background-color: #778da9;
+  color: #e0e1dd;
+  border-width: 1px;
+  border-style: solid;
+}
   
-    border-radius: 6px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #0a152a;
 
-    margin: 2px;
+input{
+  background-color: #778da9;
+  border-width: 1px;
+  border-style: solid;
+}
 
-    padding: 10px;
+#TraverseNumbers{
+  width: 155px;
   
-    width: 320px;
-  }
+}
 
-  .RunButton{
-    background-color: #778da9;
-    color: #e0e1dd;
-    border-width: 1px;
-    border-style: solid;
-  }
-  
-  #TraverseNumbers{
-    width: 155px;
-    background-color: #778da9;
-    border-width: 1px;
-    border-style: solid;
-  }
-  
-  #TraverseText{
-    text-align: center;
-  }
-  
-  #TraverseBox1{
-    text-align: center;
-  }
-  
-  #ValidateBox1{
-    text-align: center;
-  }
-  
-  #ValidateNumber{
-    width: 100px;
-    background-color: #778da9;
-    border-width: 1px;
-    border-style: solid;
-  }
-  
-  #ValidateText{
-    text-align: center;
-  }
-  
-  #TotalBox1{
-    text-align: center;
-  }
-  
-  #TotalText{
-    margin: 5px;
-  }
+#TraverseText{
+  text-align: center;
+}
 
-  #TotalRun{
-    background-color: #778da9;
-    color: #e0e1dd;
-    border-style: none;
-  }
+#TraverseBox1{
+  text-align: center;
+}
+
+#ValidateBox1{
+  text-align: center;
+}
+
+#ValidateNumber{
+  width: 100px;
+}
+
+#ValidateText{
+  text-align: center;
+}
+
+#TotalBox1{
+  text-align: center;
+}
+
+#TotalText{
+  margin: 5px;
+}
+
+#TotalRun{
+  background-color: #778da9;
+  color: #e0e1dd;
+  border-style: none;
+}

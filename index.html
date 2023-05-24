@@ -5,14 +5,17 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="sd.css"/>
     <link rel="stylesheet" href="lo.css"/>
+    <link rel="stylesheet" href="vr.css"/>
+    <link rel="stylesheet" href="SQL.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nat 5 CS Rev</title>
     <script type="module" src="/sd.js" defer></script>
     <script type="module" src="/lo.js"defer></script>
+    <script type="module" src="vr.js"defer></script>
   </head>
   <body>
     <div id = "row1">
-      <div id="StandardAlgorithmsBox">
+      <div class="BigBox" id="StandardAlgorithmsBox">
 
         <h2 class="Title">Standard Algorithms</h2>
 
@@ -45,7 +48,7 @@
           </div>
         </div>
       </div>
-      <div id = "LogicalOpBox">
+      <div class = "BigBox" id = "LogicalOpBox">
         <h2 class="Title">Logical Operators</h2>
         <div class="box" id = "LogicalOpBox1">
           <ul>
@@ -54,6 +57,21 @@
             <li id="NOT">NOT</li>
           </ul>
         </div>
+      </div>
+      <div id = "VRulesBox" class="BigBox">
+        <h2 class="Title">Validation Rules</h2>
+        <div id = "VRulesBox1" class="box">
+          <ul id="VList">
+            <li id="PC">Presence</li>
+            <li id="RC">Range</li>
+            <li id="LC">Length</li>
+            <li id="RChoice">Restricted Choice</li>
+          </ul>
+        </div>
+      </div>
+      <div id="SQLExamplesBox" class="BigBox">
+        <h2 class="Title">SQL Examples</h2>
+        <div class="box" id = "SQLExamplesBox1"></div>
       </div>
     </div>
   </body>
