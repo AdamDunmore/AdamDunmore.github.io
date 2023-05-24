@@ -1,39 +1,30 @@
 #StandardAlgorithmsBox{
-    background-color: #cccccc;
+    background-color: #1b263b;
   
     border-radius: 6px;
     border-width: 2px;
     border-style: solid;
-    border-color: #aaaaaa;
+    border-color: #0a152a;
+
+    margin: 2px;
 
     padding: 10px;
   
     width: 320px;
   }
-  
-  .box{
-    border-color: black;
-    border-width: 5px;
-    border-radius: 6px;
-  
-    background-color: #dddddd;
-  
-    width: 300px;
-    height: 80px;
-  
-    padding: 5px;
-  
-    margin: 5px;
-  }
-  
-  .Title{
-    text-align: center;
-    margin: 0;
-    margin-bottom: 4px;
+
+  .RunButton{
+    background-color: #778da9;
+    color: #e0e1dd;
+    border-width: 1px;
+    border-style: solid;
   }
   
   #TraverseNumbers{
     width: 155px;
+    background-color: #778da9;
+    border-width: 1px;
+    border-style: solid;
   }
   
   #TraverseText{
@@ -50,6 +41,9 @@
   
   #ValidateNumber{
     width: 100px;
+    background-color: #778da9;
+    border-width: 1px;
+    border-style: solid;
   }
   
   #ValidateText{
@@ -62,4 +56,10 @@
   
   #TotalText{
     margin: 5px;
+  }
+
+  #TotalRun{
+    background-color: #778da9;
+    color: #e0e1dd;
+    border-style: none;
   }
